@@ -1,0 +1,129 @@
+body{
+    background-color: #D8DFE8;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    width: 31px;
+    height: 48px;
+    margin-left: 44px;
+    margin-top: 40px;
+}
+
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.ingresaTexto{
+    margin-top: 128px;
+    margin-left: 236px;
+    width: 680px;
+    height: 288px;
+    font-size: 32px;
+    line-height: 48px;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border: none;
+}
+
+.mensaje{
+    position: relative;
+    margin-left: 90px;
+    background-image: url(muñeco2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+    width: 400px;
+    height: 944px;
+    border-radius: 32px;
+    margin-left: 84px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #495057;
+    line-height: 150%;
+    text-align: center;
+    border: none;
+}
+
+.copiar{
+    margin-top: 20px;
+    position: relative;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    margin-left: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0A3871;
+    border-color: #0A3871;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.copiar:hover{
+    transform: scale(1.2);
+    background: #495057;
+    transition: 1s;
+}
+
+.encriptar{
+    background-color: #0A3871;
+    color: #FFFFFF;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 450px;
+    margin-left: 179px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.encriptar:hover{
+    transform: scale(1.2);
+    background: #011939;
+    transition: 1s;
+}
+
+.desencriptar{
+    margin-left: 30px;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0A3871;
+    border-color: #0A3871;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.desencriptar:hover{
+    transform: scale(1.2);
+    background: #6c7e94;
+    transition: 1s;
+}
+
+.informacion{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 840px;
+    margin-left: 180px;
+    font-family: 'Inter', sans-serif;
+}
+
+.desarrollador{
+    font-size: 16px;
+    margin-left: 520px;
+    color: #0A3871;
+    font-family: 'Inter', sans-serif;
+}
